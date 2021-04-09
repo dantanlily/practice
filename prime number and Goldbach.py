@@ -55,10 +55,15 @@ def count_prime(n):
            count+=1
            print(i,end=" ")
     return count
-
-    
+  
 count_prime(100)
 
-# 
+
+
+
+
+
+
+
 
 
