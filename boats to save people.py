@@ -25,7 +25,6 @@ class Solution:
             print("error: max individual weight is bigger than boat limit")
             
         else:
-            print(max(people))
             while left<=right:
                 if left==right:
                     boat+=1
