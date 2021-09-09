@@ -39,3 +39,13 @@ step_finding_Fibonacci(30)
 
 #Fibonacci(10)
 
+
+#
+
+def fib(n):
+    if n==0 or n==1:
+        return n
+    return fib(n-1) + fib(n-2)
+
+fib(6)
+
