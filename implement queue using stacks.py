@@ -31,8 +31,8 @@ class MyQueue(object):
         """
         if not self.stack2:
             while self.stack1:
-                tmp = self.stack1.pop()
-                self.stack2.append(tmp)
+                tmp = self.stack1.pop()  # pop function for stack is to remove the last value; first in last out; Stack [1,2,3]; 
+                self.stack2.append(tmp)  # now implement the same function 'pop' to queue to make sure it's first in first out. [3,2,1], hence stack 2 is for storing value
         res = self.stack2.pop()
         return res
 
