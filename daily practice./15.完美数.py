@@ -35,4 +35,17 @@ def func(n):
     if res==n*2: #因为1 把原本数n也会加上去 * 2
         return True
     return False
-    
+
+
+
+#  method 2 as number is limited can also check the value
+
+def checkPerfectNumber(num:int)->bool:
+    return True if num in [6,28,496,8128,33550336] else False
+
+
+
+
+
+
+
